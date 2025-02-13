@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.bottomLine hr{
+    height: 5px;
+    width: 50vw;
+    background-color:black;
+    z-index: 20;
+    margin: 100px ;
+    position: absolute;
+    left: 20vw;
+    top:10vw;
+}
+
+.navi hr {
+    height: 1.3vw;
+    width: 5px;
+    background-color:black;
+    z-index: 10;
+    margin: 18px 0;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body img{
+    position: relative;
+    height: 88%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}
+
+
+.font{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header .cover{
+    background-color: black;
+    width: 100vw;
+    height: 20px;
+    margin-bottom: 70px;
+}
+
+header a{
+    color: black;
+    text-decoration:none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header ul{
+    position:absolute;
+    right: 1%;
+    top:20px;
+    margin-top: 2.5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+}
+
+header li{
+    font-size: 1.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    display: inline;
+    padding: 10px;
+    margin:0 2vw;
+}   
+
+footer{
+    background-color: black;
+    width: 100vw;
+    height: 12%;
+    position: fixed;
+    bottom: 0;
+}
+
+.half-text{
+    color: green;
+    margin: 20px;
+    font-size: 10vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    left: 5vw;
+    bottom: 10px;
+}
